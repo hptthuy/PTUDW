@@ -22,3 +22,15 @@ D:\hptthuy\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.csproj.CoreCompileInput
 D:\hptthuy\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\hptthuy\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.dll
 D:\hptthuy\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.pdb
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\MyClass.dll.config
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\MyClass.dll
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\MyClass.pdb
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\EntityFramework.dll
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\EntityFramework.xml
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.dll
+D:\hptthuy\suject\nam3ki6\asp.net\PTUDW\Thoitrang\Thoitrang\MyClass\obj\Debug\MyClass.pdb

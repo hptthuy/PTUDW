@@ -17,12 +17,12 @@
                 <div class="card-header">
                     @*<h3 class="card-title">Title</h3>*@
                     <div class="row">
-                        <div class="col-md-6"> // độ rộng bằng 6 
+                        <div class="col-md-6">
                             <strong class="text-danger">DANH MỤC SẢN PHẨM</strong>
                         </div>
 
-                        <div class="col-md-6 text-right"> // vẫn là độ rộng bằng 6 và đưa nội dung sang phải 
-                            <a href="@Url.Action("Create","Category")" class="btn-sm btn-success"><i class="fa fa-plus"></i> Thêm mới</a> // btn là button
+                        <div class="col-md-6 text-right">
+                            <a href="@Url.Action("Create","Category")" class="btn-sm btn-success"><i class="fa fa-plus"></i> Thêm mới</a> 
                             <a href="@Url.Action("Trash","Category")" class="btn-sm btn-danger"><i class="fa fa-trash"></i> Thùng rác</a>
 
                             @*@Html.ActionLink("Tạo mới", "Create")*@
@@ -39,7 +39,7 @@
                             <th>@Html.DisplayNameFor(model => model.Order)</th>
                             <th>Chức năng</th>
                         </tr>
-                        @foreach (var item in Model) // đây là vòng lặp for 
+                        @foreach (var item in Model) // đây là vòng lặp for
                         {
                             <tr>
                                 <td>@Html.DisplayFor(modelItem => item.Id)</td>
@@ -48,7 +48,7 @@
                                 <td>@Html.DisplayFor(modelItem => item.ParentID)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Order)</td>
                                 <td>
-                                    @if (item.Status==1)
+                                    @if (item.Status == 1)
                                     {
                                         <a href="@Url.Action("Status","Category", new { id = item.Id })" class="btn-sm btn-success"><i class="fa fa-toggle-on"></i></a>
 

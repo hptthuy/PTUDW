@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace MyClass.DAO
    
     public class CategoriesDAO
     {
-        private MyDBContext db = new MyDBContext();
+        private MyDBContext db = new MyDBContext(); 
 
 
         //INDEX=SELECT* FROM
@@ -31,16 +32,44 @@ namespace MyClass.DAO
                     }
                 case "Trash": //status = 0
                     {
-                        list = db.Categories.ToList();
+                        list = db.Categories.Where(m => m.Status == 0).ToList();
                         break;
+                       
                     }
                 default: //status = 0
                     {
-                        list = db.Categories.Where(m => m.Status == 0).ToList();
+                        list = db.Categories.ToList();
                         break;
                     }
             }
             return list;
+        }
+        public Categories getRow(int? id)
+        {
+            if (id == null)
+            {  
+                return null; 
+            }
+            else
+            {
+                return db.Categories.Find(id);
+            }
+
+        }
+        public int Insert (Categories row)
+        {
+            db.Categories.Add(row);
+            return db.SaveChanges();
+        }
+        public int Update (Categories row)
+        {
+            db.Entry(row).State = EntityState.Modified;
+           return db.SaveChanges();
+        }
+        public int Delete (Categories row)
+        {
+            db.Categories.Remove(row);
+            return db.SaveChanges();
         }
            
     }
