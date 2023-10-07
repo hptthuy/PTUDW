@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Thoitrang",
+    "\\Thoitrang\\Thoitrang",
+    "\\Thoitrang\\Thoitrang\\Areas",
+    "\\Thoitrang\\Thoitrang\\Areas\\Admin",
+    "\\Thoitrang\\Thoitrang\\Areas\\Admin\\Controllers",
+    "\\Thoitrang\\Thoitrang\\Areas\\Admin\\Views",
+    "\\Thoitrang\\Thoitrang\\Areas\\Admin\\Views\\Category",
+    "\\Thoitrang\\Thoitrang\\Controllers",
+    "\\Thoitrang\\Thoitrang\\Models",
+    "\\Thoitrang\\Thoitrang\\obj"
+  ],
+  "SelectedNode": "\\Thoitrang\\Thoitrang\\Areas\\Admin\\Controllers\\CategoryController.cs",
+  "PreviewInSolutionExplorer": false
+}
